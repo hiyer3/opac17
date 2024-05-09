@@ -255,7 +255,7 @@ function numberWithCommas(x) {
 }
 
 var updateStates = function updateStates() {
-  $.getJSON("http://localhost:3000/fetchData?sheetid=1", function (rawData) {
+  $.getJSON("https://opac17-9bf6c7ec46d0.herokuapp.com/fetchdata?sheetid=1", function (rawData) {
     var data = rawData;
     var dataRows = [];
     var i = 4;
@@ -356,7 +356,7 @@ var updateStates = function updateStates() {
 };
 
 var updateSpecialty = function updateSpecialty() {
-  $.getJSON("http://localhost:3000/fetchData?sheetid=4", function (rawData) {
+  $.getJSON("https://opac17-9bf6c7ec46d0.herokuapp.com/fetchdata?sheetid=4", function (rawData) {
     var data = rawData;
     var dataRows = [];
     var i = 4;
@@ -434,7 +434,7 @@ var updateSpecialty = function updateSpecialty() {
 };
 
 var updateCircles = function updateCircles() {
-  $.getJSON("http://localhost:3000/fetchData?sheetid=3", function (rawData) {
+  $.getJSON("https://opac17-9bf6c7ec46d0.herokuapp.com/fetchdata?sheetid=3", function (rawData) {
     var data = rawData;
     var dataRows = [];
 
